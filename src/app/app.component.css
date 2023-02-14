@@ -1,0 +1,22 @@
+p {
+  font-family: Lato;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+section {
+  text-align: center;
+  margin: 50px;
+}
+
+#sec2 {
+  margin: 50px;
+}
+
+#sec3 {
+  font-size: 50px;
+}

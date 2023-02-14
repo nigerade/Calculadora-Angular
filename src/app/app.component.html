@@ -1,0 +1,42 @@
+<ion-app>
+  <ion-content>
+    <header>
+      <p>CALCULADORA</p>
+    </header>
+
+    <section>
+      <ion-item>
+        <ion-label position="stacked">Entre com o 1° Número: </ion-label>
+        <ion-input [(ngModel)]="num1"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Entre com o 2° Número: </ion-label>
+        <ion-input [(ngModel)]="num2"></ion-input>
+      </ion-item>
+    </section>
+    <br />
+
+    <section id="sec2">
+      <ion-button color="dark" (click)="somar()">SOMAR</ion-button>
+      <br />
+      <br />
+
+      <ion-button color="dark" (click)="subtrair()">SUBTRAIR</ion-button>
+      <br />
+      <br />
+
+      <ion-button color="dark" (click)="multiplicar()">MULTIPLICAR</ion-button>
+      <br />
+      <br />
+
+      <ion-button color="dark" (click)="dividir()">DIVIDIR</ion-button>
+      <br />
+      <br />
+
+      <section id="sec3">
+        <ion-label>{{ resultado }}</ion-label>
+      </section>
+    </section>
+  </ion-content>
+</ion-app>
